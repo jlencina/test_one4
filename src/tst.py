@@ -9,6 +9,8 @@ week_after = date.today() - timedelta(days=7)
 dt_today = date.today().strftime("%d/%m/%Y")
 dt_week = week_after.strftime("%d/%m/%Y")
 
+
+
 #Instanciando o webdriver do Chrome
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
